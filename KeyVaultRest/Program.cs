@@ -36,7 +36,7 @@ namespace KeyVaultRest
 
         public static async Task MainASync()
         {
-            string token = await AuthNHelper.AcquireTokenBySPN(tenantId, clientId, clientSecret);
+            string token = await AuthHelper.AcquireTokenBySPN(tenantId, clientId, clientSecret);
             using (var client = new HttpClient(new LoggingHandler(new HttpClientHandler())))
             {
                 client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);

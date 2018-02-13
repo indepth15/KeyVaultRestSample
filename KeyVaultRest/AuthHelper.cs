@@ -8,7 +8,7 @@ using System.Net;
 
 namespace keyvault
 {
-    class AuthNHelper
+    class AuthHelper
     {
 
         const string resource = "https://management.azure.com/";
