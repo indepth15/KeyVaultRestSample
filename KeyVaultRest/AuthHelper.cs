@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net;
 
+// This program is borrowed from David's code here https://github.com/davidebbo/AzureWebsitesSamples/blob/master/HttpClientSample/AuthenticationHelpers.cs
 namespace keyvault
 {
     class AuthHelper
