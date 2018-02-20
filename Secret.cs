@@ -65,7 +65,7 @@ namespace KeyVaultRestSecret
                 {
                     var requestBody = new
                     {
-                        value = "DefaultEndpointsProtocol=https;AccountName=thisisstorage;AccountKey=p5e7g1TFXx3Zirmgeb9seXkyWDrjd1V3xhKy4DMap4dQL/0bwY/AAuOY2K8oVKLPf1tPexSinFokIIXbGgntMA==;EndpointSuffix=core.windows.net",
+                        value = "DefaultEndpointsProtocol=https;AccountName=thisisstorage;AccountKey=p5geb9seXkyWDrjd1V3xhKy4DMap4dQL/0bwY/AAuOY2K8oVKLPf1tPexSinFokIIXbGgntMA==;EndpointSuffix=core.windows.net",
                         contentType = "text/plain",
                         attributes = new
                         {
